@@ -1,10 +1,11 @@
+<h1>My Shop</h1>
 {% assign collection = collections['all'] %}
 <div class="container">
-    {% for products in collection.products %}
+    {% for product in collection.products %}
         <div class="card-container">
             <div class="card-top"></div>
             <div class="card-body">
-                <h6 class="product-title">{{ product.title }}</h6>
+                <h2 class="product-title">{{ product.title }}</h2>
             </div>
         </div>
     {% endfor %}
