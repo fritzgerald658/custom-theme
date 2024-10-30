@@ -4,7 +4,7 @@
 <h1>{{collection.title}}</h1>
 
 {% for product in collection.products %}
-    {% if section.settings.hide_sold_out != false and product.available != true %}
+    {% if section.settings.hide_sold_out != true and product.available != true %}
     <a style="color: {{settings.link_color}}" href={{product.url}}>{{product.title}} - {{product.price |  money}} - 
         {% if product.available != true %}
             (SOLD OUT)
