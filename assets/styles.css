@@ -1,8 +1,39 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap");
 :root {
-  --primary-font: "Lato";
+  --primary-font: "Rethink Sans";
 }
+
+* {
+  margin: 0;
+}
+
+.card-parent-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Set 4 items per row */
+  gap: 1rem;
+  padding: 5rem;
+  height: 50vh;
+  /* align-items: center;
+  justify-content: center;
+  display: flex; */
+  /* flex-direction: row; */
+  gap: 2rem;
+}
+
+.card-container {
+  width: 15rem;
+  border: 1px solid black;
+}
+
+.card-body {
+  padding: 1rem;
+}
+.product-price {
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
 h1 {
   font-family: var(--primary-font);
   font-weight: 700;
@@ -11,4 +42,30 @@ h1 {
 
 h2 {
   font-family: var(--primary-font);
+}
+
+h3 {
+  font-family: var(--primary-font);
+  color: rgb(138, 138, 138);
+}
+
+img {
+  width: 100%; /* Makes the image fill the container width */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+button {
+  margin: 1rem 0rem;
+  cursor: pointer;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-family: var(--primary-font);
+  padding: 0.5rem;
+  transition: 0.2s;
+}
+
+button:hover {
+  text-decoration: underline;
 }
