@@ -1,6 +1,5 @@
 [
-<<<<<<< HEAD
-  {
+{
     "name": "theme_info",
     "theme_name": "Themekit template theme",
     "theme_version": "1.0.0",
@@ -20,7 +19,4 @@
       }
     ]
   }
-=======
-
->>>>>>> 25ba87054fae6d7035041319de461e0931668dae
 ]
