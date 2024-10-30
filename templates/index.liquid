@@ -1,1 +1,11 @@
-{%  section 'random-collection' %} 
+{% assign collection = collections['all'] %}
+<div class="container">
+    {% for products in collection.products %}
+        <div class="card-container">
+            <div class="card-top"></div>
+            <div class="card-body">
+                <h6 class="product-title">{{ product.title }}</h6>
+            </div>
+        </div>
+    {% endfor %}
+</div>

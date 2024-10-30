@@ -1,5 +1,3 @@
-<h1>{{shop.name}}</h1>
-
 {%  assign  collection = collections['first-collection'] %}
 <h1>{{collection.title}}</h1>
 
@@ -11,7 +9,6 @@
         {% endif %}
     </a>
     {% endif %}
-    <h1>{{product.url }}</h1>
 {% endfor %}
 
 {%  schema %}
@@ -24,6 +21,7 @@
                 "label" : "Hide sold out products",
                 "default": false
             }
+            
         ]
     }
 {% endschema %}
