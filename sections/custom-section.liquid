@@ -1,4 +1,7 @@
-<p>{{ section.settings.text }}</p>
+
+<div>
+    {{section.settings.text}}
+</div>
 <a href="{{ section.settings.url }}">{{ section.settings.url }}</a>
 {% comment %} {% if section.settings.image_picker %}
     <img src="{{ section.settings.image_picker |  image_url: width:100, height:100  }}"
