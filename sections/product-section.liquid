@@ -1,0 +1,22 @@
+{% assign product = all_products[section.settings.product] %}
+
+{% if product %}
+    <div>{{ product.title }}</div>
+    <div>{{ product.description }}</div>
+    <div>{{ product.price |   money_with_currency }}</div>
+{% endif %}
+
+
+
+{% schema %}
+{
+    "name": "Product",
+    "settings": [
+        {
+            "type": "product",
+            "id": "product",
+            "label": "Product"
+        }
+        ]
+}
+{% endschema %}
