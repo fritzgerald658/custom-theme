@@ -1,7 +1,7 @@
 <div>
     {% if section.settings.image_banner %}
-    <img src="{{{ section.settings.image_banner 
-    |  image_url: width: 100, height: 100,  }}}"
+    <img src="{{ section.settings.image_banner 
+    |  image_url: width: 100, height: 100,  }}"
     width="100"
     height="100" alt="">
     {% endif %}
