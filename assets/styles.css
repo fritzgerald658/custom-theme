@@ -7,6 +7,15 @@
   margin: 0;
 }
 
+.container {
+  height: 100vh;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .card-parent-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* Set 4 items per row */
