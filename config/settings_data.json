@@ -10,6 +10,14 @@
 {
   "current": {
     "link_color": "#9016ff",
+    "sections": {
+      "custom-section": {
+        "type": "custom-section",
+        "settings": {
+          "text": "Hakdogerist"
+        }
+      }
+    },
     "content_for_index": [
 
     ]
