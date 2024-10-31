@@ -14,8 +14,9 @@
       "custom-section": {
         "type": "custom-section",
         "settings": {
-          "text": "Hakdogerist",
-          "image_picker": "shopify://shop_images/sodioxbatt1.jpg"
+          "text": "<h1>Richtext</h1>",
+          "image_picker": "shopify://shop_images/sodioxbatt1.jpg",
+          "url": ""
         }
       }
     },
