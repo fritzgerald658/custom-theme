@@ -11,13 +11,14 @@
   "sections": {
     "template-homepage": {
       "type": "custom-banner",
-      "settings": {}
+      "settings": {
+      }
     },
     "container_Lptzrr": {
       "type": "container",
       "settings": {
-        "header": "Imroz Website",
-        "description": "This is my description"
+        "header": "Hakdogerist",
+        "description": "Feel free to type"
       }
     },
     "product_section_7xxRW9": {
@@ -27,5 +28,9 @@
       }
     }
   },
-  "order": ["template-homepage", "container_Lptzrr", "product_section_7xxRW9"]
+  "order": [
+    "template-homepage",
+    "container_Lptzrr",
+    "product_section_7xxRW9"
+  ]
 }
