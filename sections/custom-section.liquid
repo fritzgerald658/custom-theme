@@ -3,11 +3,11 @@
     {{section.settings.text}}
 </div>
 <a href="{{ section.settings.url }}">{{ section.settings.url }}</a>
-{% comment %} {% if section.settings.image_picker %}
-    <img src="{{ section.settings.image_picker |  image_url: width:100, height:100  }}"
-    width="100"
-    height="100" alt="">
-{% endif %} {% endcomment %}
+{% if section.settings.image_picker %}
+    <img src="{{ section.settings.image_picker |  image_url: width:300, height: 300 }}"
+    width="300"
+    height="300" alt="">
+{% endif %} 
 
 {%  schema  %} 
 {
