@@ -1,9 +1,24 @@
 {
   "devDependencies": {
     "@shopify/prettier-plugin-liquid": "^1.5.2",
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.14"
   },
   "scripts": {
+    "tw": "npx tailwindcss -i ./style.css -o ./assets/output.css --watch",
     "prettier": "prettier --write '**/*.liquid'"
-  }
+  },
+  "name": "custom-theme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "html-styles": "^1.0.0",
+    "isobject": "^2.1.0",
+    "line-column": "^1.0.2",
+    "ohm-js": "^16.6.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
