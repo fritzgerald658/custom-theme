@@ -17,8 +17,20 @@
     },
     "product-section": {
       "type": "product-section",
+<<<<<<< HEAD
       "settings": {}
     }
   },
   "order": ["product-section"]
+=======
+      "settings": {
+        "product": "smiger"
+      }
+    }
+  },
+  "order": [
+    "template-homepage",
+    "product-section"
+  ]
+>>>>>>> 2d067b38c2c3b7c92e2840ff91e9d55f80c5c8d2
 }
