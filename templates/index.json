@@ -15,35 +15,10 @@
         "image_banner": "shopify://shop_images/ibanez.jpg"
       }
     },
-    "custom_section_pNCRqA": {
-      "type": "custom-section",
-      "custom_css": [
-        "img {width: 100%; height: auto;}"
-      ],
-      "settings": {
-        "text": "<h1>Heyo</h1>",
-        "image_picker": "shopify://shop_images/sodioxbatt1.jpg",
-        "url": ""
-      }
-    },
-    "custom_section_hYFeL6": {
-      "type": "custom-section",
-      "settings": {
-        "text": "<p>Jayson</p>",
-        "image_picker": "shopify://shop_images/tank-g.png",
-        "url": ""
-      }
-    },
     "product-section": {
       "type": "product-section",
-      "settings": {
-      }
+      "settings": {}
     }
   },
-  "order": [
-    "template-homepage",
-    "product-section",
-    "custom_section_pNCRqA",
-    "custom_section_hYFeL6"
-  ]
+  "order": ["product-section"]
 }
