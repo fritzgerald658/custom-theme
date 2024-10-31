@@ -2,7 +2,7 @@
   "name": "Homepage",
   "sections": {
     "template-homepage": {
-      "type": "custom-section"
+      "type": ""
     }
   },
   "order": ["template-homepage"]
