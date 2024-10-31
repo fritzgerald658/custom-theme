@@ -1,12 +1,11 @@
 {% assign product = all_products[section.settings.product] %}
 
 {% if product %}
-    <div>{{ product.title }}</div>
-    <div>{{ product.description }}</div>
-    <div>{{ product.price |   money_with_currency }}</div>
+  <div>{{ product.title }}</div>
+  <div>{{ product.description }}</div>
+  <div>{{ product.price | money_with_currency }}</div>
+  <div>{{ product.price | money_with_currency }}</div>
 {% endif %}
-
-
 
 {% schema %}
 {
