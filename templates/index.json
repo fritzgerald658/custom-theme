@@ -14,9 +14,17 @@
       "settings": {
         "image_banner": "shopify://shop_images/ibanez.jpg"
       }
+    },
+    "custom_section_pNCRqA": {
+      "type": "custom-section",
+      "settings": {
+        "text": "<h1>Heyo</h1>",
+        "url": ""
+      }
     }
   },
   "order": [
-    "template-homepage"
+    "template-homepage",
+    "custom_section_pNCRqA"
   ]
 }
