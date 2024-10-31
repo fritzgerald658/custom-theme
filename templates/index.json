@@ -11,8 +11,7 @@
   "sections": {
     "template-homepage": {
       "type": "custom-banner",
-      "settings": {
-      }
+      "settings": {}
     },
     "container_Lptzrr": {
       "type": "container",
@@ -28,9 +27,5 @@
       }
     }
   },
-  "order": [
-    "template-homepage",
-    "container_Lptzrr",
-    "product_section_7xxRW9"
-  ]
+  "order": ["template-homepage", "container_Lptzrr", "product_section_7xxRW9"]
 }

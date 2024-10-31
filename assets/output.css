@@ -588,10 +588,18 @@ video {
   }
 }
 
+.flex {
+  display: flex;
+}
+
 .table {
   display: table;
 }
 
 .h-\[100vh\] {
   height: 100vh;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
