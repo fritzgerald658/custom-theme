@@ -9,7 +9,7 @@
  */
 {
   "sections": {
-    "template-homepage": {
+    "custom-banner": {
       "type": "custom-banner",
       "settings": {
         "image_banner": "shopify://shop_images/ibanez.jpg"
@@ -17,9 +17,7 @@
     },
     "custom_section_pNCRqA": {
       "type": "custom-section",
-      "custom_css": [
-        "img {width: 100%; height: auto;}"
-      ],
+      "custom_css": ["img {width: 100%; height: auto;}"],
       "settings": {
         "text": "<h1>Heyo</h1>",
         "image_picker": "shopify://shop_images/sodioxbatt1.jpg",
