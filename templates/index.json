@@ -3,6 +3,9 @@
   "sections": {
     "template-homepage": {
       "type": "custom-banner"
+    },
+    "template-home": {
+      "type": "custom-section"
     }
   },
   "order": ["template-homepage"]
