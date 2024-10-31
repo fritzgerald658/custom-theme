@@ -1,6 +1,6 @@
 <h1>This is a custom section</h1>
 <p>{{ section.settings.text }}</p>
-
+<a href="{{ section.settings.url }}">Random URL</a>
 {% comment %} {% if section.settings.image_picker %}
     <img src="{{ section.settings.image_picker |  image_url: width:100, height:100  }}"
     width="100"
