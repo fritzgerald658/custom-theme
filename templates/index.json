@@ -9,7 +9,7 @@
  */
 {
   "sections": {
-    "custom-banner": {
+    "template-homepage": {
       "type": "custom-banner",
       "settings": {
         "image_banner": "shopify://shop_images/ibanez.jpg"
@@ -17,7 +17,9 @@
     },
     "custom_section_pNCRqA": {
       "type": "custom-section",
-      "custom_css": ["img {width: 100%; height: auto;}"],
+      "custom_css": [
+        "img {width: 100%; height: auto;}"
+      ],
       "settings": {
         "text": "<h1>Heyo</h1>",
         "image_picker": "shopify://shop_images/sodioxbatt1.jpg",
@@ -33,8 +35,15 @@
       }
     },
     "product-section": {
-      "type": "product-section"
+      "type": "product-section",
+      "settings": {
+      }
     }
   },
-  "order": ["product-section", "custom_banner"]
+  "order": [
+    "template-homepage",
+    "product-section",
+    "custom_section_pNCRqA",
+    "custom_section_hYFeL6"
+  ]
 }
