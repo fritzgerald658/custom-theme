@@ -31,6 +31,9 @@
         "image_picker": "shopify://shop_images/tank-g.png",
         "url": ""
       }
+    },
+    "product-section": {
+      "type": "product-section"
     }
   },
   "order": ["custom_banner", "custom_section_pNCRqA", "custom_section_hYFeL6"]
