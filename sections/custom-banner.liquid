@@ -1,8 +1,10 @@
 <div>
+    {% if section.settings.image_banner %}
     <img src="{{{ section.settings.image_banner 
     |  image_url: width: 50, height: 50,  }}}"
     width="50"
     height="50" alt="">
+    {% endif %}
 </div>
 
 
