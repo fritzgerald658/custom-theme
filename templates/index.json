@@ -10,9 +10,10 @@
 {
   "sections": {
     "template-homepage": {
-      "type": "Home",
-      "settings": {}
-    }
+      "type": "custom-banner",
+      "settings": {
+      }
+    },
   },
-  "order": [""]
+  "order": ["template-homepage"]
 }
