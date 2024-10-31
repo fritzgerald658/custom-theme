@@ -36,5 +36,5 @@
       "type": "product-section"
     }
   },
-  "order": ["custom_banner", "custom_section_pNCRqA", "custom_section_hYFeL6"]
+  "order": ["product-section", "custom_banner"]
 }
