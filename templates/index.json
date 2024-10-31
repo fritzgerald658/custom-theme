@@ -33,9 +33,5 @@
       }
     }
   },
-  "order": [
-    "template-homepage",
-    "custom_section_pNCRqA",
-    "custom_section_hYFeL6"
-  ]
+  "order": ["custom_banner", "custom_section_pNCRqA", "custom_section_hYFeL6"]
 }
