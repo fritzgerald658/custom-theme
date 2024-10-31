@@ -14,6 +14,23 @@
       "settings": {
       }
     },
+    "container_Lptzrr": {
+      "type": "container",
+      "settings": {
+        "header": "Imroz Website",
+        "description": "This is my description"
+      }
+    },
+    "product_section_7xxRW9": {
+      "type": "product-section",
+      "settings": {
+        "product": ""
+      }
+    }
   },
-  "order": ["template-homepage"]
+  "order": [
+    "template-homepage",
+    "container_Lptzrr",
+    "product_section_7xxRW9"
+  ]
 }
