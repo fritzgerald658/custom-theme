@@ -49,6 +49,12 @@ h3 {
   color: rgb(138, 138, 138);
 }
 
+p {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
 img {
   width: 100%; /* Makes the image fill the container width */
   height: auto; /* Maintains the aspect ratio */
