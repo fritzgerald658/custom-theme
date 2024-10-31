@@ -591,3 +591,7 @@ video {
 .table {
   display: table;
 }
+
+.h-\[100vh\] {
+  height: 100vh;
+}
