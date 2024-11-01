@@ -1,7 +1,9 @@
 <div
   class="w-full h-[550px] bg-cover bg-center"
   style="background-image: url({{ section.settings.image_picker |  image_url: width:1440, height: 550  }});"
-></div>
+>
+  <h1>{{ section.settings.text }}</h1>
+</div>
 
 {% schema %}
 {
