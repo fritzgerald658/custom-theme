@@ -14,9 +14,7 @@
       "custom-section": {
         "type": "custom-section",
         "settings": {
-          "text": "<h1>Richtext</h1>",
-          "image_picker": "shopify://shop_images/sodioxbatt1.jpg",
-          "url": ""
+          "image_picker": "shopify://shop_images/sodioxbatt1.jpg"
         }
       }
     },
