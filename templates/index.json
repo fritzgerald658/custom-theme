@@ -13,24 +13,9 @@
       "type": "custom-banner",
       "settings": {
       }
-    },
-    "container_Lptzrr": {
-      "type": "container",
-      "settings": {
-        "header": "Hakdogerist",
-        "description": "Feel free to type"
-      }
-    },
-    "product_section_7xxRW9": {
-      "type": "product-section",
-      "settings": {
-        "product": ""
-      }
     }
   },
   "order": [
-    "template-homepage",
-    "container_Lptzrr",
-    "product_section_7xxRW9"
+    "template-homepage"
   ]
 }
