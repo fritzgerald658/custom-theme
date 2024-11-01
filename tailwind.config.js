@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./**/*.liquid"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        jost: ["Jost", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
