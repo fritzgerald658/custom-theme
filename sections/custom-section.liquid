@@ -1,13 +1,30 @@
 
+<<<<<<< HEAD
 <div class="w-full h-[550px] bg-cover bg-center" 
 style="background-image: url({{ section.settings.image_picker |  image_url: width 1440: height: 550  }});">
+=======
+<div>
+    {{section.settings.text}}
+>>>>>>> 8e3ac82d255a5408831c71968abebf1d1992bca2
 </div>
+<a href="{{ section.settings.url }}">{{ section.settings.url }}</a>
+{% if section.settings.image_picker %}
+    <img src="{{ section.settings.image_picker |  image_url: width: 1440, height: 550 }}"
+    width="1440"
+    height="550" alt="">
+{% endif %} 
 
 {%  schema  %} 
 {
+<<<<<<< HEAD
     "name": "Hero Banner",
     "tag": "section",
     "class": "hero-banner",
+=======
+    "name": "Custom Section",
+    "tag": "section",
+    "class": "custom section",
+>>>>>>> 8e3ac82d255a5408831c71968abebf1d1992bca2
     "limit": 2,
     "settings": [
         {
@@ -28,7 +45,7 @@ style="background-image: url({{ section.settings.image_picker |  image_url: widt
     ],
     "presets": [
         {
-            "name": "Hero Banner"
+            "name": "Custom Section"
         }
     ]
 }
