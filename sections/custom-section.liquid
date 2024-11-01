@@ -5,7 +5,7 @@
   <div class="flex flex-col justify-center items-center h-screen p-4">
     <h1>{{ section.settings.heading_text }}</h1>
     <p>{{ section.settings.paragraph_text }}</p>
-    <button>Shop Now</button>
+    <button class="btn btn-primary">Shop Now</button>
   </div>
 </div>
 
@@ -32,6 +32,12 @@
             "id":"paragraph_text",
             "label" : "Description",
             "default" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+        },
+        {
+            "type": "text",
+            "id": "button_text",
+            "label": "Button",
+            "default" : "Shop Now"
         }
     ],
     "presets": [
