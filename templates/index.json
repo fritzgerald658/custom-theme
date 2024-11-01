@@ -13,9 +13,18 @@
       "type": "custom-banner",
       "settings": {
       }
+    },
+    "custom_section_T4qBwG": {
+      "type": "custom-section",
+      "settings": {
+        "text": "<p>Hakdog</p>",
+        "image_picker": "shopify://shop_images/shopify-dummy-image.jpg",
+        "url": ""
+      }
     }
   },
   "order": [
-    "template-homepage"
+    "template-homepage",
+    "custom_section_T4qBwG"
   ]
 }
