@@ -1,8 +1,12 @@
 <div
-  class="w-full h-[100vh] bg-cover bg-center"
+  class="w-full h-[100vh] bg-cover bg-center justify-center items-start p-5"
   style="background-image: url({{ section.settings.image_picker |  image_url: width:1440, height: 550  }});"
 >
-  <h1>{{ section.settings.text }}</h1>
+  <div>
+    <h1>Dummy Heading</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+    <button>Shop Now</button>
+  </div>
 </div>
 
 {% schema %}
