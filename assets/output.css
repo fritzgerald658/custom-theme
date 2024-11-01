@@ -600,6 +600,10 @@ video {
   height: 100vh;
 }
 
+.h-\[80vh\] {
+  height: 80vh;
+}
+
 .flex-col {
   flex-direction: column;
 }
