@@ -1,10 +1,8 @@
 <div class="">
-    {% if section.settings.image_banner %}
-        
-            <img src="{{ section.settings.image_banner |  image_url: width:1440, height:550,  }}"
+    {% if section.settings.image_banner %}     
+            <img src="{{ section.settings.image_banner |  image_url: width: 1440, height: 550,  }}"
             width="1440"
             height="550" alt="">
-        
     {% endif %}
 </div>
 
